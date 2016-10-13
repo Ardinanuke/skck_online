@@ -1,2 +1,0 @@
-user : polrestabarelang
-pasw : adminbarelang2015@@##
