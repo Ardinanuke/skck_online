@@ -1,0 +1,26 @@
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(../../config/koneksi.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(../../config/koneksi.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(): Failed opening '../../config/koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(../../config/lib.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(../../config/lib.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:12 America/New_York] PHP Warning:  include(): Failed opening '../../config/lib.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:12 America/New_York] PHP Fatal error:  Call to undefined function mfa() in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 16
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(../../config/koneksi.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(../../config/koneksi.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(): Failed opening '../../config/koneksi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 2
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(../../config/lib.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(../../config/lib.php): failed to open stream: No such file or directory in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:39 America/New_York] PHP Warning:  include(): Failed opening '../../config/lib.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 3
+[30-May-2015 10:34:39 America/New_York] PHP Fatal error:  Call to undefined function mfa() in /home/polrestabarelang/public_html/skck/pages/cetak_tik.php on line 16
+[30-May-2015 12:24:38 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:48 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:52 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:55 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:56 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:57 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:24:59 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:25:01 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:25:02 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:25:03 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:25:05 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3
+[30-May-2015 12:25:15 America/New_York] PHP Warning:  mysql_connect(): No such file or directory in /home/polrestabarelang/public_html/skck/config/koneksi.php on line 3

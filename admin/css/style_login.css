@@ -1,0 +1,424 @@
+@font-face{
+    font-family: opensans;
+    src: url("../../include/Open_Sans/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: opensans-light;
+    src: url("../../include/Open_Sans/OpenSans-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: opensans-semi;
+    src: url("../../include/Open_Sans/OpenSans-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+a, input[type='submit'], .tombol-menu, input[type='text'], input[type='number'], input[type='file'], input[type='email'], input[type='date'], textarea, select {
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12{
+    position: relative;
+    float: left;
+}
+.col1{ width: 8.33%; }
+.col2{ width: 16.67%; }
+.col3{ width: 25%; }
+.col4{ width: 33.33%; }
+.col5{ width: 41.67%; }
+.col6{ width: 50%; }
+.col7{ width: 58.33%; }
+.col8{ width: 66.67%; }
+.col9{ width: 75%; }
+.col10{ width: 83.33%; }
+.col11{ width: 91.77%; }
+.col12{ width: 100%; }
+
+body{
+    background: #746464;  
+    font-family: opensans;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #fff;
+    line-height: 30px;
+    box-shadow: 0px 2px 2px #c9c6c6;
+}
+.head_wrap{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 50px;
+    margin-top: 5px;
+}
+.bantuan{
+    float: right;
+}
+.bantuan a{
+    display: block;
+    color: #5f5f5f;
+    font-size: 20px;
+    line-height: 65px;
+}
+.bantuan a:hover{
+    color: #4e4e4e;   
+}
+.background img{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    z-index: -10;
+}
+.content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto 30px auto;
+}
+.batas_content{
+    height: 60px;
+    width: 100%;
+}
+.login_wrapper{
+    width: 90%;
+    background: #fff;
+    color: #363636;
+    float: right;
+}
+.garis_login{
+    border-top: 1px solid #c6c6c6;
+    width: 100%;
+}
+.garis_content{
+    border-top: 1px dashed #4b4b4b;
+    width: 100%;
+}
+.login{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login p{
+    margin: 13px 0px;   
+}
+.posisi_login{
+    padding: 10px 30px 10px 30px;   
+}
+.login input[type='text'], input[type='password']{
+    border: 1px solid #898989;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 93%;
+    box-shadow: inset 0px 2px 2px #d4d2d2;
+}
+.login input[type='submit']{
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+    color: #fff;
+    background: #5854ce;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #5854ce;
+    font-size: 16px;
+    float: right;
+}
+.login input[type='submit']:hover{
+    background: #827ed3;  
+}
+.posisi-icon{
+    margin-right: 20px;   
+}
+.remember_me{
+    float: left;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #959595;
+}
+.remember_me input[type='checkbox']{
+    margin-top: 2px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    color: #434242;
+}
+.judul h1{
+    color: #3e3e3e;;
+    margin: 0px;
+}
+.container_content_2{
+    margin-top: 10px;
+}
+.posisi-icon-judul{
+    width: 50px;   
+}
+.container_content_left{
+    margin-top: 10px;
+}
+.isi_content{
+    font-size: 18px;
+    color: #3e3e3e;
+    width: auto;
+}
+.login a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.register{
+    width: 100%;
+    z-index: 100;
+    background: rgba(21, 21, 21, 0.8);
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+.register_wrap{
+    background: #fff;
+    width: 500px;
+    margin: 100px auto;
+}
+.tombol_daftar{
+    width: 100%;
+    overflow: auto;
+    background: #cccbcb;
+}
+.tombol_daftar p{
+    margin: 0px;
+    float: left;
+}
+.lupa_sandi a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 14px;
+    cursor: pointer;
+}
+.lupa_sandi a:hover{
+    text-decoration: underline;
+}
+.slider{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px #bebebe;
+}
+.slider_wrapper{
+    position: relative;
+    overflow: hidden;
+    width: 1000%;
+    -webkit-animation: slider 20s infinite;
+    -moz-animation: slider 20s infinite;
+    -ms-animation: slider 20s infinite;
+    -o-animation: slider 20s infinite;
+    animation: slider 20s infinite;
+}
+@-webkit-keyframes slider{
+    0%,10%,20%,100%{ margin-left: 0px; }
+    30%,40%{ margin-left: -1200px; }
+    50%,60%{ margin-left: -2400px; }
+    70%,80%{ margin-left: -3600px; }
+    90%{ margin-left: 0px; }
+}
+.slider_wrapper img{
+    float: left;
+    margin-top: -50px;
+    width: 1200px;
+}
+.garis_skat{
+    border-left: 1px solid #727272;
+    height: 500px;
+    float: left;
+    margin-left: 15px;
+}
+.posisi_content{
+    padding: 10px 0px 10px 0px;   
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    background: #fff;
+}
+.footer_wrap{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: #363636;
+}
+.notif{
+    position: fixed;
+    z-index: 100;
+    background: rgba(36, 34, 34, 0.83);
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: auto;
+    display: none;
+}
+.notif_salah{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    margin-top: 0px;
+    background: #262626;
+	opacity:0;
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	-ms-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.posisi_notif{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    font-size: 35px;
+    line-height: 150px;
+    font-family: opensans-light;
+}
+.tombol_keluar, .tombol_keluar2{
+    padding: 20px;
+    display: block;
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+}
+.tombol_keluar:hover, .tombol_keluar2:hover{
+    background: #262626;   
+}
+.isi_image{
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    background: #fff;
+    padding: 10px;
+}
+.notif-pos{
+    width: 100%;
+}
+.kotak1{
+    width: 100%;
+    background: #6e59c7;
+    color: #fff;
+    padding: 10px;
+}
+
+.login_page{
+    width: 380px;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+    font-family: opensans-light;
+}
+.judul_login{
+    text-align: center;
+}
+.judul_login p{
+    font-size: 25px;
+}  
+.judul_login img{
+    height: 50px;  
+}
+.judul_login h1, h2, h3, h4, h5, h6{
+    color: #fff;     
+}
+.login_form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 1px #cbcbcb;
+    position: relative;
+    overflow: hidden;
+}
+.login_form_wrap input[type='text'], .login_form_wrap input[type='password'], .login_form_wrap input[type='email']{
+    border: 1px solid #cbcbcb;
+    border-radius: 0px;
+    padding: 12px 10px 12px 10px;
+    width: 93.5%;
+    font-size: 16px;
+    display: block;
+    box-shadow: inset 0px 2px 2px #ededed;
+    border-radius: 2px;
+    font-family: opensans-light;
+}
+.login_form_wrap input[type='submit']{
+    border-radius: 2px;
+    padding: 12px 10px 12px 10px;
+    font-size: 14px;
+    width: 100%;
+    color: #fff;
+    background: #8b7b7b;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: opensans-light;
+}
+.login_form_wrap input[type='submit']:hover{
+    background: #605252;   
+}
+.login_form_wrap p{
+    margin: 25px 0px;   
+}
+.form_lupa_sandi{
+    position: fixed;
+    background: rgba(36, 34, 34, 0.83);
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 999;
+    display: none;
+}
+.form_lupa_sandi_wrap{
+    width: 400px;
+    margin: auto;
+    margin-top: 0px;
+    opacity: 0;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+}
+.notif_login{
+    display: block;
+    padding: 13px;
+    border-radius: 3px;
+    background: #ebebeb;
+    color: #3e3a3a;
+}
+.posisi_icon_login{
+    float: left;
+    width: 25px;
+    margin-top: 3.5px;
+}

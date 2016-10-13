@@ -1,0 +1,119 @@
+@font-face{
+    font-family: opensans;
+    src: url("../../include/Open_Sans/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-light;
+    src: url("../../include/Open_Sans/OpenSans-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-bold;
+    src: url("../../include/Open_Sans/OpenSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-semi;
+    src: url("../../include/Open_Sans/OpenSans-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, input[type='submit'], button[type='submit']{
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+body{
+    background: #fff;
+    margin: 0 auto;
+}
+.form_tik{
+    font-family: opensans;
+    font-size: 16px;
+    color: #444;
+    width: 1000px;
+    margin: 0 auto 50px auto;
+}
+.form_tik h1{
+    font-family: opensans-bold;
+    text-align: center;
+}
+.form_tik table{
+    border: 1px solid #d8cfcf;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
+}
+.form_tik table td{
+    padding: 8px 5px;
+    font-size: 14px;
+}
+.kecil{
+    width: 5%;
+    text-align: center;
+}
+.foto_table{
+    border: none;
+    text-align: center;
+}
+.foto_tik{
+    border: 1px solid #d8cfcf;
+    text-align: center;
+}
+.garis_tik{
+    border-bottom: 1px solid #d8cfcf;
+}
+.angka, .titik2{
+    width: 4%;
+}
+.form_tik ul{
+    margin: 0px;
+    padding: 0px 25px;
+}
+.form_tik ul li{
+    padding: 3px 0;
+}
+.form_tik ol{
+    margin: 0px;
+    padding: 0px 25px;
+}
+.form_tik ol li{
+    padding: 3px 0px;
+}
+.float_right{
+    float: right;
+    margin-right: 5px;
+}
+.ol_left{
+    margin: 0px;
+}
+.ol_left li{
+    float: left;
+    width: 290px;
+    padding: 5px 0;
+}
+.garis_left{
+    border-left: 1px solid #d8cfcf;
+}
+.garis_right{
+    border-right: 1px solid #d8cfcf;
+}
+b{
+    font-family: opensans-bold;
+    font-weight: normal;
+}

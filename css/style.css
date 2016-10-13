@@ -1,0 +1,304 @@
+@font-face{
+    font-family: opensans;
+    src: url("../include/Open_Sans/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-light;
+    src: url("../include/Open_Sans/OpenSans-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-bold;
+    src: url("../include/Open_Sans/OpenSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, input[type='submit']{
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10{
+    position: relative;
+    float: left;
+}
+.col1{ width: 100px; }
+.col2{ width: 200px; }
+.col3{ width: 300px; }
+.col4{ width: 400px; }
+.col5{ width: 500px; }
+.col6{ width: 600px; }
+.col7{ width: 700px; }
+.col8{ width: 800px; }
+.col9{ width: 900px; }
+.col10{ width: 1000px; }
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+#container{
+    width: 0px;
+    margin: 0 auto;
+}   
+
+header{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background: #746464;
+    z-index: 50;
+    min-height: 90px;
+}
+.batas{
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+.head_wrap{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+    padding: 10px 0;
+}
+.label_input_login{
+    font-family: opensans;
+    font-size: 12px;
+    color: #fff;
+}
+.input_login{
+    float: right;
+    padding: 10px 0;
+}
+.posisi_input_login{
+    float: left;
+    font-family: opensans;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 5px;
+}
+.tetap_login{
+    font-family: opensans;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: -14px;
+}
+.posisi_input_login input[type='email'], .posisi_input_login input[type='password']{
+    border: 1px solid #969696;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.tombol_login{
+    margin-top: 17px;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    background: #333030;
+    cursor: pointer;
+}
+.tombol_login:hover{
+    background: #292525;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    background: #dadfe1;
+    z-index: 20;
+}
+.content_wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+.posisi_content{
+    height: 75px;
+    width: 100%;
+}
+.logo img{
+    height: 45px;
+    margin-top: 10px;
+}
+.judul_content{
+    font-family: opensans;
+    width: 100%;
+    text-align: center;
+    color: #4d555d;
+}
+.judul_content h1{
+    margin-top: 40px;
+    font-family: opensans-bold
+}
+.judul_content h3{
+    margin-top: -10px;
+}
+section{
+    font-family: opensans;
+    margin: 25px 0px 0px 0px;
+}
+
+section #right{
+    width: 100%;
+}
+section #right table{
+    width: 100%;
+    border-collapse: collapse;
+}
+section h2{
+    color: #4d555d;
+    margin: 0px;
+}
+#right table td:nth-child(1){
+    width: 180px;
+}
+#right table td{
+    padding: 5px;
+    color: #4d555d;
+    font-size: 14px;
+}
+#right table input[type='text'], #right table input[type='email'], #right table input[type='password']{
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid #969696;
+    width: 250px;
+}
+#right table input[type='submit']{
+    padding: 8px 10px;
+    border-radius: 3px;
+    background: none;
+    color: #4d555d;
+    font-weight: bold;
+    border: 1px solid #4d555d;
+    cursor: pointer;
+}
+#right table input[type='submit']:hover{
+    background: #4d555d;
+    color: #fff;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    background: #99babc;
+    color: #1a1b1c;
+    font-family: opensans;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 14px;
+}
+#content{
+    position: relative; 
+}
+
+.tombol_daftar2{
+    font-family: opensans-light;
+    padding: 8px 10px;
+    border-radius: 3px;
+    background: #4d555d;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #4d555d;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.tombol_daftar2:hover{
+    background: #646f79;
+}
+.batas_garis{
+    border-top: 1px solid #453d3d;
+}
+.syarat{
+    font-size: 13px;
+}
+.image_landing{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.image_landing img{
+    margin-top: -83px;
+    width: 90%;
+}
+.content_wrapper{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    left: 0px;
+    margin-top: 80px;
+    padding: 25px 0;
+}
+.notif_aktivasi h1, .notif_aktivasi h3{
+    margin: 10px;
+    font-family: opensans;
+    color: #444;
+}
+.notif_aktivasi h1{
+    font-family: opensans-bold;   
+    font-size: 25px;
+}
+.notif_aktivasi h3{
+    font-size: 14px;   
+}
+.notif_aktivasi{
+    margin: 20px 0;   
+}
+.clear{
+    clear: both;
+}
+.tombol_daftar{
+    padding: 8px 10px;
+    border-radius: 3px;
+    background: none;
+    color: #8b929a;
+    border: 1px solid #c3cad1;
+    cursor: pointer;
+    font-family: opensans;
+    margin: 30px 10px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: inset 0 -1px 1px #f0f0f0;
+    text-decoration: none;
+}
+.tombol_daftar:hover{
+    background: #f0f0f0;
+}
+.notif{
+    background: #f2f2f2;
+    font-size: 12px;
+    color: #444;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin: 10px 0;
+    color:darkred;
+    font-family: opensans;
+}
+
+.close_button{
+    float: right;
+    cursor: pointer;
+    margin-top: -1px;
+}

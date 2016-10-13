@@ -1,0 +1,347 @@
+@font-face{
+    font-family: opensans;
+    src: url("../../include/Open_Sans/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-light;
+    src: url("../../include/Open_Sans/OpenSans-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-bold;
+    src: url("../../include/Open_Sans/OpenSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: opensans-semi;
+    src: url("../../include/Open_Sans/OpenSans-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, input[type='submit'], button[type='submit']{
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+body{
+    background: #fff;
+    margin: 0 auto;
+}
+nav{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    width: 250px;
+    background: #746464;
+    z-index: 30;
+}
+.logo_admin{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+.menu{
+    margin: 40px 0px 20px 0px; 
+}
+.menu p{
+    margin: 0px;
+}
+.menu p a{
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: opensans-light;
+    color: #fff;
+}
+.menu p a:hover{
+    background: #fff;
+    border-left: 5px solid #5f5252;
+    color: #746464;
+}
+.menu .active{
+    background: #fff;
+    border-left: 5px solid #5f5252;
+    color: #746464;
+}
+.posisi_icon{
+    width: 30px;
+    margin-top: 3px;
+    float: left;
+}
+article{
+    position: absolute;
+    width: 1116px;
+    margin-left: 250px;
+    font-family: opensans;
+    z-index: 20;
+}
+.content_wrapper{
+    width: 95%;
+    margin: 30px auto 20px auto;
+}
+.content_wrapper h1{
+    font-size: 35px;
+    font-family: opensans-bold;
+    color: #444;
+}
+.content_wrapper table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #444;
+    overflow: hidden;
+}
+thead{
+    font-family: opensans-bold;
+    font-weight: normal;
+    color: #444;
+    background: #f0f0f0;
+}
+thead th{
+    padding: 10px 5px;
+    border: 1px solid #d8cfcf;
+}
+tbody{
+    font-size: 14px;
+}
+tbody td{
+    padding: 10px 5px; 
+    border: 1px solid #d8cfcf;
+}
+tbody a{
+    text-decoration: none;
+    color: #444;
+    font-size: 13px;
+}
+tbody a:hover{
+    text-decoration: underline;
+}
+.tombol_tambah{
+    text-decoration: none;
+    font-size: 14px;
+    background: #746464;
+    padding: 8px 10px;
+    color: #fff;
+    font-family: opensans-light;
+    border: 1px solid #746464;
+}
+.tombol_tambah:hover{
+    background: #5d5050   
+}
+.posisi_icon2{
+    margin-right: 5px;   
+}
+.judul{
+    margin-bottom: 30px;   
+}
+.judul h1{
+    margin-bottom: 15px;
+}
+.posisi_icon3{
+    float: left;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+.garis{
+    border-top: 2px solid #e8e6e6;
+    width: 100%;
+}
+.lingkaran{
+    padding: 5px;
+    border-radius: 100%;
+    background: #e8e6e6;
+    float: right;
+    margin-top: -6px;
+}
+.tambah_wrap input[type='text'], .tambah_wrap input[type='number'], .tambah_wrap input[type='email'], input[type='password'], textarea, select{
+    width: 95%;
+    border: none;
+    padding: 5px 0;
+    font-family: opensans;
+}
+.tambah_wrap input[type='text']:focus{
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+.tgl{
+    width: 80px;   
+}
+.bulan{
+    width: 150px;   
+}
+.tahun{
+    width: 100px;   
+}
+.detail_table h2{
+    color: #444;
+    font-family: opensans-semi;
+}
+.detail_table h3{
+    color: #444;
+    font-family: opensans;
+}
+.content_wrapper .detail_table table td{
+    font-family: opensans;
+}
+.content_wrapper .detail_table table td:nth-child(1){
+    font-family: opensans-semi;
+}
+.clear{
+    clear: both;
+}
+.content_wrapper .pecah{
+    width: 47%;
+    float: left;
+    margin: 15px 15px;
+}
+b{
+    font-family: opensans-bold;
+    font-weight: normal;
+}
+.kosong{
+    padding: 10px;
+    border-radius: 3px;
+    background: #f0f0f0;
+    font-size: 16px;
+    color: #3e3939;
+    font-family: opensans-semi;
+}
+.pencarian{
+    float: right;
+    margin-top: -50px;
+}
+.pencarian p{
+    float: left;
+    margin: 0px;
+}
+.pencarian input[type='search'], .pencarian select{
+    border: 1px solid #ccc6c6;
+    padding: 10px;
+}
+.pencarian input[type='search']{
+    width: 500px;
+    line-height: 20px;
+    border-right: none;
+}
+.pencarian select{
+    width: 150px;
+    line-height: 42px;
+}
+.hasil_pencarian{
+    color: #444;
+    float: right;
+}
+.hasil_pencarian p{
+    margin: 5px 0px 10px 0px;
+}
+.tombol_cari{
+    color: #fff;
+    line-height: 40px;
+    border: none;
+    background: #746464;
+    width: 50px;
+    cursor: pointer;
+}
+.tombol_cari:hover{
+    background: #5d5050;   
+}
+.paging{
+    width: 100%;
+    margin: 20px 0;
+}
+.paging a{
+    padding: 8px 10px;
+    background: #746464;
+    color: #fff;
+    font-family: opensans;
+    margin: 0px 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.paging a:hover{
+    background: #5d5050;   
+}
+.paging b{
+    padding: 10px;
+    font-family: opensans-bold;
+    font-size: 14px;
+    background: #746464;
+    color: #fff;
+    margin: 0 5px;
+}
+.paging .titik_paging{
+    padding: 0px;
+    font-family: opensans;
+    background: none;
+    color: #444;
+}
+
+.langkah_edit{
+    width: 100%;
+    position: relative;
+    margin: 20px 0 20px 0;
+    background: #584949;
+}
+.langkah_edit p{
+    float: left;
+    margin: 0px;
+}
+.langkah_edit p a{
+    color: #fff;
+    text-decoration: none;
+    background: #746464;
+    padding: 10px 10px 10px 25px;
+    font-size: 14px;
+    z-index: 20;
+    display: block;
+    font-family: opensans-light;
+}
+.langkah_edit p a:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 20px solid #746464;
+    position: absolute;
+    z-index: 30;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.langkah_edit p .langkah_aktif{
+    background: #d3c1c1;
+    color: #141212;
+}
+.langkah_edit p .langkah_aktif:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 20px solid #d3c1c1;
+    position: absolute;
+    z-index: 30;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.langkah_dalam{
+    background: #aaa7a7;
+    overflow: hidden;
+    padding: 3px;
+}
